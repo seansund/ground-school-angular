@@ -1,10 +1,46 @@
-# AasampleApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+# Create an Angular App
 
 ## Purpose
 This is the initial Angular app that will be used to demonstrate various learning exercises located in different branches.
 * Prime factors kata - 01-prime-factors branch
+
+## Create the initial Angular App.
+In terminal use the Angular CLI to create a sample app
+`ng new aasample-app`
+
+## Review the sample application
+In terminal
+```
+cd aasample-app
+ng serve --open
+```
+
+## Walk students through the generated artifacts
+* in src/app folder
+  * review all the app component files/code/tests
+* review README.md
+* review index.html 
+* review the configuration files
+* review the end-to-end tests in e2e folder
+* for more infor see https://angular.io/guide/quickstart
+
+## Run the unit tests
+In terminal run
+`ng test`
+
+Update the tests in src/app/app.component.spec.ts and the title in src/app/app.component.ts
+
+## Run the end-to-end tests
+In terminal run 
+ `ng e2e`
+ 
+ Review the contents of the tests in the e2e/src/app.e2e-spec.ts
+
+**The rest of the contents of this README.md file was auto genertated with the creation of the app** 
+
+# AasampleApp
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
 ## Development server
 
