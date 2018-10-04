@@ -22,7 +22,7 @@ ng serve --open
 * review index.html 
 * review the configuration files
 * review the end-to-end tests in e2e folder
-* for more infor see https://angular.io/guide/quickstart
+* for more info see https://angular.io/guide/quickstart
 
 ## Run the unit tests
 In terminal run
