@@ -2,7 +2,9 @@
 
 ## Purpose
 This is the initial Angular app that will be used to demonstrate various learning exercises located in different branches.
+* Introduction to TypeScript - 00-typescript branch
 * Prime factors kata - 01-prime-factors branch
+* UI Events - 02-ui-events branch
 
 ## Create the initial Angular App.
 In terminal use the Angular CLI to create a sample app
