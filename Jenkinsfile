@@ -6,6 +6,7 @@ pipeline {
     stages {
         stage("Setup") {
             steps {
+              sh 'apt install chromium-browser'
               sh 'node -v'
               sh 'npm install'
             }
