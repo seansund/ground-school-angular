@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage("Setup") {
             steps {
-                sh 'curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash'
-                sh 'source ~/.bashrc'
+                sh 'curl -k -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash'
                 sh 'nvm install 11.2.0'
             }
         }
