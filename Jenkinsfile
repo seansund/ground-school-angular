@@ -1,15 +1,13 @@
 pipeline {
-    agent any
+    agent { dockerfile true }
 
     stages {
         stage("Setup") {
             steps {
-                sh 'curl -k -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash'
-                sh 'export NVM_DIR="$HOME/.nvm"'
-                sh '[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"'
-                sh 'nvm install 11.2.0'
+              sh 'node -v'
             }
         }
+        
         stage("Build") {
             steps {
               sh 'node -v'
