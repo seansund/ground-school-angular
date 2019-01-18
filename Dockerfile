@@ -1,5 +1,5 @@
 FROM node:8-stretch-slim
 
-RUN apt-get install -y build-essential python && \
+RUN apt-get update && apt-get install -y build-essential python && \
   npm install --quiet node-gyp -g &&\
   npm install --quiet
