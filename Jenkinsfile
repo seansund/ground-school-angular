@@ -1,5 +1,5 @@
 pipeline {
-    agent { dockerfile true }
+    agent { docker { image 'seansund/node8:latest' } }
     
     environment { HOME = '.' }
 
